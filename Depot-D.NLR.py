@@ -77,7 +77,7 @@ from langchain_chroma import Chroma
 vector_store = Chroma(
     collection_name="Depot-D.NLR_db",
     embedding_function=embeddings,
-    persist_directory="./chroma_langchain_db",  # Where to save data locally, remove if not necessary
+    persist_directory="./chroma_langchain_db",  
 )
 
 
@@ -104,7 +104,7 @@ from langchain_core.callbacks.streaming_stdout import StreamingStdOutCallbackHan
 callbacks = [StreamingStdOutCallbackHandler()]
 
 llm = Ollama(
-    model="llama3.1",  # this should match the model name shown in `ollama list`
+    model="llama3.1",  
     temperature=0.01,
     top_p=0.95,
     repeat_penalty=1.03,

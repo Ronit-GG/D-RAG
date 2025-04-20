@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+.venv/
+.env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ChromaDB or DB files
+*.db
+*.sqlite
+
+# Logs and output
+*.log
+*.out
+
+# Python dependency management
+poetry.lock
+Pipfile.lock
+*.egg-info/
+dist/
+build/
+
+# PDFs and data files
+*.pdf
+
+# Ollama model cache (if any local storage is present)
+~/.ollama/
+
+# Streamlit cache
+.streamlit/
+
+# Misc
+*.bak
+*.tmp

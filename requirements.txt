@@ -1,0 +1,11 @@
+
+PyMuPDF==1.21.2
+langchain==0.17.0
+sentence-transformers==2.2.0
+chromadb==0.3.22
+huggingface-hub==0.13.2
+transformers==4.28.1
+llama-index==0.6.0
+streamlit==1.15.2
+llama3.1==1.0.0
+chainlit==0.1.0
